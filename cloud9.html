@@ -3,14 +3,87 @@
   <head>
 	<style>
 
+		* {
+  	  box-sizing: border-box;
+		}
+	.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+		}
+	.row::after {
+    content: "";
+    clear: both;
+    display: table;
+		}
+		  h1 {
+   	  color: white;
+   	  text-align: center;
+		}
+		  h3{
+   	  color: white;
+   	  text-align: center;
+		}
+		  p {
+	  color: white;
+		  }
+	 .pointer {cursor: pointer;}
+		  p.serif {
+  	  font-family: "Times New Roman", Times, serif;
+      }
+     	  p.sansserif {
+  	  font-family: "Impact", Charcoal, sans-serif;
+      }
+    	  p.normal {
+      font-style: normal;
+      }
+    	  p.italic  {
+      font-style: italic;
+      }
+    	  p.oblique {
+      font-style: oblique;
+      }
+      	  ul {
+      color: white;
+      	  }
 	</style>
-	<body background="https://hdqwalls.com/download/monument-valley-background-do-1600x900.jpg">
+	<meta charset="utf-8">
+	<body background="https://wallpapercave.com/wp/9cJmNaw.jpg">
+	<title>Endangered Species</title>
   </head>
      <body>
-  		<h5>Rayben Mina</br>
-    	Kevin Tang</br>
-    	AP CSP</br>
-    	</h5>
+     	<div>
+    		<h1><p class="sans-serif">Endangered Species</h1></p>
+    		<h5><center><p class="oblique"><font color="white">Rayben Mina</br>
+    			Kevin Tang</br>
+    			AP CSP</br></font></p></h5></center>
+    	</div>
+    	<div>
+   			<h1><p class="sans-serif">Currently there are over 41,000 species considered Endangered all over the wolrd and over 16,000 are threatened with extinction.</br>
+
+   			Some species include</p></h1>
+   				<ul>
+   					<center>
+   						<li>Turtles</li>
+   						<li>Tigers</li>
+   						<li>Rhinos</li>
+   					</center>
+   				</ul>
+   		</div>
+   		<div>
+   			<h3>For more info for each species, click on the following</h3>
+   		</div>
+   		<div class="row">
+   		<div class="column">
+   			 <img src="https://i.pinimg.com/originals/f4/ca/02/f4ca027ddaf219c500b51ea6337d97e2.jpg" alt="Sea Turtle" style="width:100%">
+   		</div>
+   		<div class="column">
+   			 <img src="https://mediaassets.wcpo.com/photo/2018/06/21/wcpo_popsy_white_tiger_1529603828353_90479566_ver1.0_640_480.jpg" alt="Tiger" style="width:100%">
+   		</div>
+   		<div class="column">
+    		<img src="https://mediaassets.abc2news.com/photo/2017/04/05/_JFB1070_1491408384594_57821469_ver1.0_640_480.jpg" alt="Rhinos" style="width:100%">
+  		</div>
+		</div>
 
     </body>
 </html>
