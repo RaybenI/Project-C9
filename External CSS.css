@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<style>
-	div {
-    background-color: lightblue;
-    
-	</style>
-<title>External CSS</title>
-</head>
-<body>
-</body>
-</html>
+div {
+ 	background-color: lightblue;
+	}
+	
