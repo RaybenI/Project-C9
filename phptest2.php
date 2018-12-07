@@ -1,4 +1,9 @@
 <?php
+    $host = "127.0.0.1";
+    $user = "rayben";                     
+    $pass = "";                                  
+    $db = "c9";                                
+    $port = 3306;                                
     
     include_once 'formtest.html';
       require_once 'login.php';
