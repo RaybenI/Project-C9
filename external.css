@@ -1,12 +1,95 @@
-h1 {
+
+	ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+	ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ul.b {
+  list-style-type: square;
+}
+ 
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #000000;
+}
+			.nobull {
+	  list-style-type: none;
+		}
+		* {
+  	  box-sizing: border-box;
+		}
+			.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+		}
+			.row::after {
+    content: "";
+    clear: both;
+    display: table;
+		}
+		  h1 {
    	  color: white;
    	  text-align: center;
 		}
-p {
-	  	color: white;
-		  	 }
-h3{
+		  h3{
    	  color: white;
    	  text-align: center;
 				 }
-	
+		 	 p {
+	  	color: white;
+		  	 }
+	 		.pointer {cursor: pointer;}
+		  .serif {
+  	  font-family: "Times New Roman", Times, serif;
+      }
+     	 .sansserif {
+  	  font-family: "Impact", Charcoal, sans-serif;
+      }
+      	  ul {
+      color: white;
+      	  }
