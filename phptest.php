@@ -18,4 +18,5 @@
     while ($row = mysqli_fetch_assoc($result)) {
         echo "The ID is: " . $row['id'] . " and the Username is: " . $row['username'];
     }
+
 ?>
